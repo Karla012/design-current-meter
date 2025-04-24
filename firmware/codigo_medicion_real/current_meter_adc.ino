@@ -5,6 +5,7 @@
 BluetoothSerial SerialBT;
 SFE_ADS122C04 adc;
 
+#define CLK_PIN 23                     // Clock signal output pin
 const int rangePin = 25;                   // Range selection pin
 const float amplifierGain = 1000.0;        // Pre-ADC gain
 unsigned long lastMillis = 0;
@@ -13,6 +14,10 @@ const unsigned long interval = 500;        // Reading interval in ms
 void setup() {
   SerialBT.begin("CurrentMeter");         // Visible Bluetooth name
   Wire.begin();
+  ledcSetup(0, 5000000, 8);      // Channel 0, 5 MHz, 8-bit resolution
+  ledcAttachPin(CLK_PIN, 0);     // Attach the pin to the PWM channel
+  ledcWrite(0, 128);             // Set 50% duty cycle (128 out of 256)
+
 
   pinMode(rangePin, INPUT);               // Configure pin as input for range selection
 
