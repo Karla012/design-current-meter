@@ -19,7 +19,7 @@ El sistema está diseñado para ofrecer precisión y bajo burden voltage en la m
 - `docs/` – Informe final y presentación del proyecto.
 - `hardware/` – Esquemáticos y diseño de PCB del circuito.
 - `firmware/` – Código del microcontrolador para la transmisión inalámbrica.
-- `simulacion/` – Resultados de simulaciones y archivos de Proteus.
+- `simulacion/` – Resultados y archivos de simulaciones.
 - `app_inventor/` – Archivos del diseño de la app móvil para visualizar los datos.
 
 ---
