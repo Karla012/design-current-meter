@@ -1,0 +1,129 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\ASUS\OneDrive\Documentos\LTspice\Proyectos\Esquema_proyecto_Dis.net
+Start Time: Sat Apr 26 00:00:53 2025
+Options: Thev_Induc=1
+C:\Users\ASUS\OneDrive\Documentos\LTspice\Proyectos\02_OptiMOS\OptiMOS_30V_LTSpice.lib(609): This is a predefined constant which shall not be changed.
+.PARAM Inn=150      Unn=10       Rmax=0.4m    gmin=119
+                                              ^^^^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(138): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVA VCC VEE VALUE = { (-ABS(( (1+SGN(V(VTN_DIFF,VEE)) ) )/2 -1) * 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                                                                                         ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(139): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVB VCC VEE VALUE = { (ABS(( (1+SGN(V(VTHP_DIFF,VEE)) ) )/2 -1) * 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                                                                                         ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(141): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVC VCC VEE VALUE = { ( ABS(  (1+SGN(V(VTHN_DIFF,VEE)) ) )/2     * 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                                                                                       ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(142): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVD VCC VEE VALUE = { (-ABS(  (1+SGN(V(VTP_DIFF,VEE)) ) )/2     * 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                                                                                      ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(138): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVA VCC VEE VALUE = { (-ABS(( (1+SGN(V(VTN_DIFF,VEE)) ) )/2 -1) * 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                                                                                         ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(139): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVB VCC VEE VALUE = { (ABS(( (1+SGN(V(VTHP_DIFF,VEE)) ) )/2 -1) * 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                                                                                         ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(141): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVC VCC VEE VALUE = { ( ABS(  (1+SGN(V(VTHN_DIFF,VEE)) ) )/2     * 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                                                                                       ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(142): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVD VCC VEE VALUE = { (-ABS(  (1+SGN(V(VTP_DIFF,VEE)) ) )/2     * 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                                                                                      ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(138): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVA VCC VEE VALUE = { (-ABS(( (1+SGN(V(VTN_DIFF,VEE)) ) )/2 -1) * 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                                                                                         ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(139): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVB VCC VEE VALUE = { (ABS(( (1+SGN(V(VTHP_DIFF,VEE)) ) )/2 -1) * 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                                                                                         ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(141): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVC VCC VEE VALUE = { ( ABS(  (1+SGN(V(VTHN_DIFF,VEE)) ) )/2     * 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                                                                                       ^
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib(142): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+GICCVD VCC VEE VALUE = { (-ABS(  (1+SGN(V(VTP_DIFF,VEE)) ) )/2     * 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                                                                                      ^
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node u4:t4 is floating.
+
+C:\Users\ASUS\OneDrive\Documentos\LTspice\Proyectos\02_OptiMOS\OptiMOS_30V_LTSpice.lib(265): Missing value, assuming 0V @ DC.
+
+V_sm     d    d5
+^^^^^^^^^^^^^^^^
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+Gmin = 2.39452e-05
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 2.00095e-05
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+Source Step = 90.9091%
+vernier = 0.015625
+Source Step = 90.9328%
+Source Step = 91.0511%
+Source Step = 91.1695%
+Source Step = 91.2879%
+Source Step = 91.4062%
+vernier = 0.00585938
+Source Step = 91.5542%
+Source Step = 91.7318%
+Source Step = 91.9093%
+Source Step = 92.0869%
+Source Step = 92.2644%
+vernier = 0.00878906
+Source Step = 92.4775%
+Source Step = 92.7438%
+Source Step = 93.0102%
+Source Step = 93.2765%
+Source Step = 93.5429%
+vernier = 0.0131836
+Source Step = 93.8491%
+Source Step = 94.2486%
+Source Step = 94.6481%
+Source Step = 95.0476%
+Source Step = 95.4471%
+vernier = 0.0197754
+Source Step = 95.8866%
+Source Step = 96.4859%
+Source Step = 97.0851%
+Source Step = 97.6844%
+Source Step = 98.2836%
+vernier = 0.0296631
+Source Step = 98.9128%
+Source Step = 99.8117%
+Trouble finding operating point....skipping operating point for Transient analysis.
+
+Simulation stopped by user.
+Total elapsed time: 3.586 seconds.
+
+Files loaded:
+C:\Users\ASUS\OneDrive\Documentos\LTspice\Proyectos\Esquema_proyecto_Dis.net
+C:\Users\ASUS\Downloads\SN74AUP1G80.lib
+C:\Users\ASUS\OneDrive\Documentos\LTspice\Proyectos\02_OptiMOS\OptiMOS_30V_LTSpice.lib
+C:\Users\ASUS\OneDrive\Documentos\LTspice\Proyectos\sbombu6\tlv3501.lib
+C:\Users\ASUS\AppData\Local\LTspice\lib\sub\MAX4239.lib
+
